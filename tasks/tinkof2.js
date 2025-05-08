@@ -10,12 +10,10 @@ function Cat() {
 
 const cat = new Cat();
 
-cat.getNameArrow(); // cat
-cat.getName(); // cat
+cat.getNameArrow();
+cat.getName();
 
 const { getName, getNameArrow } = cat;
 
-getName(); // undefined
-getNameArrow(); // cat
-
-// решил
+getName();
+getNameArrow();

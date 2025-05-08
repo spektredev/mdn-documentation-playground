@@ -27,27 +27,3 @@ const run = () => {
 }
 
 run();
-
-/*
-мой ответ
-1
-Promise
-4
-timeOut
-777
-timeOut2
-then1
-then2
-
-правильный
-1
-Promise
-4
-timeOut
-777
-then1
-then2
-timeOut2
-
-ну, почти
-*/

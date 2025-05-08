@@ -1,15 +1,12 @@
-queueMicrotask(()=>{
-  console.log('test2');
-})
-
-new Promise((resolve,reject)=>{
-  console.log('hi');
-  
-  resolve('test');
-}).then((val)=>console.log(val)
-)
-setTimeout(()=>{
-  console.log('timeot');
-  
-},0)
-
+function a() {
+  console.log("a");
+  b();
+}
+function b() {
+  console.log("b");
+}
+a();
+/*
+  Простая задача, но может запутать, своей простотой.
+  Расписать в каком порядке попадают задачи в call stack.
+*/

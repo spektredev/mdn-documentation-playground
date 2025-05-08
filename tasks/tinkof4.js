@@ -22,11 +22,3 @@ class Bar extends Pro {
 }
 
 new Bar();
-
-/* 
-bar pro
-bar bar
-pro bar
-*/
-
-// почти верно, умер на super.print

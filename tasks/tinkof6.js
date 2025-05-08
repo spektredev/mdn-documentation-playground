@@ -18,5 +18,3 @@ Array.prototype.findUnique = function() {
 }
 const newArr = [10,5,10,0,6,6,7,2,9,9].findUnique()
 console.log(newArr);
-
-// не самый оптимизированный вариант, с чистыми цилками было бы проще

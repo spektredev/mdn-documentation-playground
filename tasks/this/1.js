@@ -7,7 +7,7 @@ const obj = {
 }
 const fn = obj.say;
 
-fn() // undefined
+fn()
 
 const shape = {
   radius: 10,
@@ -17,5 +17,5 @@ const shape = {
   perimeter: () => 2 * Math.PI * this.radius
 };
 
-console.log(shape.diameter()); // 20
-console.log(shape.perimeter()); // NaN (Number * undefined = NaN)
+console.log(shape.diameter());
+console.log(shape.perimeter());
