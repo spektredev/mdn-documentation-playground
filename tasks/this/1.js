@@ -1,4 +1,5 @@
 // 1
+// ladsldasldasladlsladsladsladsl
 const obj = {
   a: 1,
   say() {
